@@ -37,3 +37,9 @@ Each level supports:
 - `questions[]` with `type` values like `bits`, `bytes`, `mb`, `mib`, `inferBpp`, `paletteToBpp`, `differenceReason`
 
 The validator and expected-answer engine are in `src/utils/validator.ts` and calculations in `src/utils/calculations.ts`.
+
+## Troubleshooting blank page
+- Do not open `index.html` directly from the file system. Run with Vite:
+  - `npm install`
+  - `npm run dev`
+- If a runtime error occurs, an on-screen error panel now appears with a message; open DevTools Console for full details.

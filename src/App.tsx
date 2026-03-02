@@ -3,7 +3,7 @@ import { Calculator } from './components/Calculator';
 import { PixelScene } from './components/PixelScene';
 import { levels } from './data/levels';
 import { deriveMetrics } from './utils/calculations';
-import { expectedAnswer, validateAnswer } from './utils/validator';
+import { validateAnswer } from './utils/validator';
 
 function App() {
   const [levelIdx, setLevelIdx] = useState(0);
